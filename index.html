@@ -5,68 +5,117 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link href="css/site.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
   </head>
   <body class="center">
-    <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="index.html">Tracie's Candy Shop</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="products.html">Products</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="registration.html">Registration</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="login.html">Login</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="checkout.html">Checkout</a>
-                  </li>
-                  
-          </nav>
+   
     </header>
-    <main>
-        <div class="Home">
-            <div class="row">
-                <div class="col">
-                 <h1>Welcome to Tracie's Candy Shop</h1>   
-                 
-                  
-                  
-                  <p>At Tracie's Candy Shop, we believe in crafting sweet moments and indulging in joy. Our mission is to create a whimsical world of confectionery delights, where every treat is made with love and imagination. 
-                  From nostalgic classics to innovative creations, we invite you to explore a universe of flavors, colors, and smiles. Step into Tracie's Candy Shop, where every visit is a delightful journey for your senses." </p>
-                  <h2>About Us</h2>
-                  <p>At Tracie's Candy Shop, we believe in bringing joy to life's sweet moments. With over 20 years of experience in crafting delightful confections, we take pride in offering the finest candies made with love and care. Our commitment to quality and taste ensures that every bite is an experience to cherish.</p>
-                  <h2>Our Products</h2>
-                  <p>From classic favorites to innovative creations, our candy selection caters to every taste bud. Indulge in our handcrafted chocolates, savor our delectable gummies, or treat yourself to our mouthwatering fudge. With a wide variety of treats to choose from, there's something for everyone at Tracie's Candy Shop.</p>
-                  <ul>
-                    <li>Chocolates: Rich, creamy, and irresistible.</li>
-                    <li>Gummies: Bursting with fruity flavors.</li>
-                    <li>Fudge: Decadent and melt-in-your-mouth goodness.</li>
-                  </ul>
-                </div>
-            </div>
-            <img class="home_img"src="images/DALL·E 2024-04-16 14.41.03 - A charming interior of Tracie's Candy Shop, showcasing a vibrant and welcoming atmosphere. The shop is filled with shelves and glass display cases bri.webp" height="600" width="600">
-            <div class="row">
-                <div class="col">
-            </div>
+    <body class="bg-black text-white">
+      <nav>
+        <div class="nav__logo"><a href="#">Tracie's Candy Shop</a></div>
+        <ul class="nav__links">
+          <li class="link">Home</li>
+          <li class="link">Login</li>
+          <li class="link">Register</li>
+          <li class="link">Contact Us</li>
+        </ul>
+        <div class="search__box">
+          <input type="text" placeholder="Search" />
+          <i class="ri-search-line"></i>
         </div>
+      </nav>
+      <div class="container">
+        <div class="row ">
+          <div class="col-lg-6 mt-5">
+            <h1>Candy Bliss<br />Taste The Sweet Life.</h1>
+            <p>
+              Welcome to Tracie's Candy Shop, where we specialize in creating unforgettable moments of sweetness and joy. Our passion is crafting a whimsical world of confectionery delights, where each treat is lovingly made with creativity and care. Discover a universe of flavors, colors, and smiles—from timeless classics to innovative creations. Step into Tracie's Candy Shop and embark on a delightful journey for your senses with every visit.
+
+
+
+
+            </p>
+            <div class="btns">
+            <!-- <button class="read__more"> <a href="login.html" id="white">Log in </a></button> -->
+              <button class="our__blogs"><a href="register.html">Shop Now</a></button>
+            </div>
+            
+          </div>
+          <div class="col-lg-6 mt-5">
+            <img src="/images/candy-shop.png" width="100%" height="1000" alt="" class="background-image">
+          </div>
+        </div>
+      </div>
+   <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider mt-5">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">Indulge in Sweetness <span class="text-body-secondary">Savor Every Treat.</span></h2>
+        <p class="lead">At Tracie's Candy Shop, we believe in bringing joy to life's sweet moments. With over 20 years of experience in crafting delightful confections, we take pride in offering the finest candies made with love and care. Our commitment to quality and taste ensures that every bite is an experience to cherish.</p>
+      </div>
+      <div class="col-md-5">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
+      </div>
     </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading fw-normal lh-1">Oh yeah, it’s that good. <span class="text-body-secondary">See for yourself.</span></h2>
+        <p class="lead">From classic favorites to innovative creations, our candy selection caters to every taste bud. Indulge in our handcrafted chocolates, savor our delectable gummies, or treat yourself to our mouthwatering fudge. With a wide variety of treats to choose from, there's something for everyone at Tracie's Candy Shop.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">Discover Sweet Delights: <span class="text-body-secondary">Explore Our Irresistable Candy Selection</span></h2>
+        <ul class="lead">
+          <li>Chocolates: Rich, creamy, and irresistible.</li>
+          <li>Gummies: Bursting with fruity flavors.</li>
+          <li>Fudge: Decadent and melt-in-your-mouth goodness.</li>
+          <li>Lollipop:bursting with colorful sweetness and available in a variety of exciting flavors!.</li>
+          <li>Cotton Candy:fluffy cotton candy, spun fresh to perfection, offering a cloud-like sweetness .</li>
+          <li>Caramel:  handcrafted with buttery caramel and decadent chocolate for a luxurious treat.</li>
+          <li>Jelly Beans:  Bursting with juicy centers and a crunchy candy shell in a rainbow of colors and delicious flavors.</li>
+          <li>Toffee: infused with crunchy nuts and coated in rich chocolate for an irresistible combination of textures and flavors.</li>
+        </ul>
+
+      </div>
+      <div class="col-md-5">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
   
-    
-     </main>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 
-
+<!-- Footer -->
      <footer>
 
      </footer>
