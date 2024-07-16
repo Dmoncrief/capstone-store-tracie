@@ -59,7 +59,7 @@ nav {
 
 
 .nav__logo a {
-  font-size: 1.5rem;
+  font-size: 2.2rem;
   font-weight: 600;
   color:#ff63e9;
   justify-content: left;
@@ -90,14 +90,14 @@ nav {
 }
 
 .search__box input {
-  color: var(--extra-light);
+  color: #ff63e9;
   background-color: transparent;
   outline: none;
   border: none;
 }
 
 .search__box i {
-  color: var(--extra-light);
+  color: #ff63e9;
   font-size: 1.2rem;
   cursor: pointer;
 }
