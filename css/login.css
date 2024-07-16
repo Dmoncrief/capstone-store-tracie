@@ -57,10 +57,12 @@ nav {
   z-index: 1;
 }
 
+
 .nav__logo a {
   font-size: 1.5rem;
   font-weight: 600;
-  color: var(--extra-light);
+  color:#ff63e9;
+  justify-content: left;
 }
 
 .nav__links {
